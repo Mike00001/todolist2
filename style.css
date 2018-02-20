@@ -1,0 +1,157 @@
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #497987; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+
+
+
+
+
+
+
+
+html, body {
+    margin: 0 auto;
+    background-color: #3f98b2;
+}
+
+section, h1, h2{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 20px;
+    text-align: center;  
+}
+
+
+h1{
+    color: white;
+    font-size: 40px;
+}
+h2{
+    background-color: aliceblue;
+    margin-top: 50px;
+    border-radius: 3px;
+    box-shadow: 5px 10px 15px #497987;
+}
+
+#aFaire, #archive{
+    margin-bottom: 1%;
+    overflow: auto;
+    height: 200px;
+    text-align: left;
+    border-radius: 5px;
+    font-size: 150%;
+    color: aliceblue;
+    background-color: black;
+    
+}
+#aFaire form {
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+#aFaire ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+section li{
+    list-style-type: none;
+    margin-bottom: 1%;
+    
+}
+
+p {
+    text-decoration: line-through; 
+    color: white;
+}
+
+#btnArchive{
+    display: flex;
+    color: transparent;
+    width: 5%;
+    background-color: #6AC259;
+    background-image: url(img/checked.png);
+    background-repeat:space;
+    background-size:contain;
+    border: none;
+    
+    
+    
+}
+
+#ddBtn{
+    width: 3%;
+    margin-right: 5%;
+}
+#btnReset input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: #c53c3c;
+    border-radius: 5px;
+    color: white;
+}
+
+
+/*DRAG AND DROP*/
+
+[draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* Required to make elements draggable in old WebKit */
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+}
+
+
+
+.column {
+  cursor: move;
+  
+}
+
+
+.column.over {
+  border-top: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+/*@media screen and (max-width: 700px) {
+    section, h1, h2{
+        width: 100%;
+        
+        text-align: center;  
+    }
+}*/
