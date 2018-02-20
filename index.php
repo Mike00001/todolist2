@@ -36,8 +36,9 @@ file_put_contents('todo.json', "");
 <html>
   <head>
   	<title>To-do list</title>
+  	<meta charset="UTF-8">
   	<link rel="stylesheet" href="style.css">
-	<meta charset="UTF-8">
+
   </head>
 <body>
     <h1>To-do list</h1>
