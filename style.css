@@ -67,6 +67,7 @@ h2{
     background-color: black;
     
 }
+
 #aFaire form {
     display: flex;
     justify-content:space-between;
@@ -87,9 +88,10 @@ section li{
     
 }
 
-p {
+#archive p {
     text-decoration: line-through; 
     color: white;
+    padding-left: 3%;
 }
 
 #btnArchive{
